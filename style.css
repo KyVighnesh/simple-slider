@@ -1,0 +1,45 @@
+
+#main-container {
+    margin: auto;
+    text-align: center;
+}
+
+
+#button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#slider-container {
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    height: 30px;
+    cursor: pointer;
+}
+
+#circle-container {
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 32%;
+    
+}
+
+#wrapper {
+    display: flex;
+    width: 60%;
+    gap: 80px;
+    margin: auto;
+}
